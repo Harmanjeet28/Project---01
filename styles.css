@@ -1,0 +1,137 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Light gray */
+    color: #333;
+  }
+  
+  header, footer {
+    background-color: #4CAF50; /* Green */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #4CAF50; /* Green */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .neon-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4CAF50; /* Green */
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .neon-button:hover {
+    color: #4CAF50; /* Green */
+    background-color: #fff;
+  }
+  
+  .fun-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .fun-icons img {
+    margin: 0 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fun-icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Additions to existing CSS for Tumblr-style layout */
+  .tumblr-style {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dark-themed styles */
+  
+  /* Header styles */
+  header {
+    background-color: #1e1e1e; /* Dark gray */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Sidebar styles */
+  aside {
+    background-color: #333; /* Dark gray */
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Main content styles */
+  .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark gray */
+    color: #fff;
+  }
+  
+  .post {
+    background-color: #2e2e2e; /* Slightly lighter gray */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #1e1e1e; /* Dark gray */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
